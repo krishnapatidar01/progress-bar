@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0%;
+  background: coral;
+}
+#progress-bar-container {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+    background-color: whitesmoke;
+
+    margin-bottom: 20px;
+    margin-top: 250px;
+    margin-left: 500px;
+  }
+  
+  #progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+  }
+  
+  #progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+  }
+  
+  .checkbox-container {
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 500px;
+  }
+  
+  h1 {
+    margin-left: 500px;
+    margin-top: 200px;
+  }
